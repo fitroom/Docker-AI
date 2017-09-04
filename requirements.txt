@@ -1,0 +1,46 @@
+# old versions not compatible with python3
+python-dateutil >= 2.6.1
+
+###
+numpy
+nose
+scikit-image
+matplotlib
+pandas
+sklearn
+sympy
+h5py
+mxnet
+chainer
+keras
+scipy
+numpy
+tensorflow
+gym
+keras-rl
+
+# lasagne and theano should be bleeding-edge versions
+-e git+https://github.com/Theano/Theano.git#egg=Theano
+-e git+https://github.com/Lasagne/Lasagne.git#egg=Lasagne
+
+#### cntk and pytorch use direct WHL urls, links should be updated manually
+https://download.pytorch.org/whl/cu75/torch-0.2.0.post1-cp35-cp35m-manylinux1_x86_64.whl 
+https://cntk.ai/PythonWheel/CPU-Only/cntk-2.1-cp35-cp35m-linux_x86_64.whl
+
+
+
+#################
+# misc stuff
+torchvision
+tensorboard
+ipython
+Cython
+ipykernel
+jupyter
+path.py
+Pillow
+pygments
+six
+sphinx
+wheel
+zmq
